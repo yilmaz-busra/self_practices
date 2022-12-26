@@ -1,0 +1,72 @@
+/* * {
+    font-family: 'Roboto', sans-serif;
+} */
+
+.nav-bg { /* menü divini düzenlemek için */
+    background-color: #663399;
+    border-bottom: 1px solid black;
+}
+
+li a{ /* menü divindeki yazıların rengi için */
+    color: white !important;
+}
+
+li a:hover {
+    color: rgb(8, 8, 8) !important;
+}
+
+.banner{ /* banner resmi için gölgelendirme */
+    box-shadow: -1px 2px 32px 7px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 2px 32px 7px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 2px 32px 7px rgba(0,0,0,0.75);
+}
+
+.btn-banner:hover { /* bannerın üstüne gelindiğinde border oluşmaması için */
+    border: none;    
+}
+
+
+.font-brand { /* menüdeki kodyolu yazısının boyutunu ve kalınlığını ayarlamak için */
+    font-size: 32px !important;
+    font-weight: bold;
+}
+
+.contents .card:hover { /* contents içindeki card yapılarının üstüne gelince olması gereken değişiklikler */
+    border: 1px solid #663399;  
+    cursor: pointer; 
+}
+
+.btn-card { /* card yapısındaki butonlar için */
+    background-color: #663399 !important;
+    color:white !important;
+    border:none !important;
+}
+
+.btn-card:hover { /* card yapısındaki butonlar için hover özelliği */
+    background-color: #331155 !important;
+}
+
+
+
+footer { /* footer özelliklerini belirlemek için */
+    background-color: #663399;
+    color: white;
+    border-top: 1px solid black;
+    padding: 25px;
+}
+
+/* eğitim içeriği css kısmı */
+
+
+.form-check-input:checked {
+    background-color: #663399 !important;
+    border: none;
+}
+
+#icerik {
+    border:1px solid #663399;
+}
+
+#icerik h1,li{
+    font-family: 'Roboto', sans-serif;
+}
